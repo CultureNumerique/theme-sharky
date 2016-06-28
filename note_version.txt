@@ -1,0 +1,20 @@
+Note du 28-06-2016
+-Bannières CSS :
+	* "ban-howto"
+	* "ban-forum"
+	* "ban-linetop" "ban-linecenter" "ban-linebottom"
+	* "ban-test" / "ban-tests"
+	* "ban-exo" / "ban-exos"
+	* "ban-act" / "ban-acts"
+	* "ben-actav" / "ban-actavs"
+	* "ban-coffee"
+		
+
+
+------------------------------------
+Note du 27-06-2014
+
+-ajout des icones de pix_core/i/ (manque "markup" et "isf", non usitées).
+-ajout des icones de pluggins externes "journal", "scheduler" et "attendanceregister"
+-correction de l'icone de mauvaise réponse + la css du bloc affichant les bonnes réponses au bas du test
+-Google Font : toujours aussi mal gérées sous Chrome mais le patch devrait arriver en juillet 2014 (donc pas corrigé dans le code pour le moment).

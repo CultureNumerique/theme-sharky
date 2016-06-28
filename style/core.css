@@ -1,0 +1,477 @@
+/* ---------- iFRAME --------- */
+
+iframe {
+border : 3px solid #ddd;
+}
+
+/* Custom banners
+------------------------- */
+
+.ban-howto {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-howto.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-forum {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-forum.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-linetop {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-linetop.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-linecenter {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-linecenter.svg") no-repeat center;
+ /*width: 25em;*/ /* Width of new image */
+ height: 2em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-linebottom {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-linebottom.svg") no-repeat right;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-coffee {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-coffee.svg") no-repeat center;
+ /*width: 25em;*/ /* Width of new image */
+ height: 10em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-test {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-test.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-tests {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-tests.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-exo {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-exo.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-exos {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-exos.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-act {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-act.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-acts {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-acts.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-actav {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-actav.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+.ban-actavs {
+	display: block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url("sharky/svg/ban-actavs.svg") no-repeat;
+ /*width: 25em;*/ /* Width of new image */
+ height: 4em; /* Height of new image */
+ /*padding-left: 25em;*/ /* Equal to width of new image */
+}
+
+/* Fonts, style and colours
+------------------------- */
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+	/*text-rendering: optimizelegibility; */
+}
+
+h2 {
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    /* line-height: 1em; */
+   /* margin: 1em 0; */
+
+}
+
+
+li {
+    line-height: 1.7em;
+}
+
+/* Le texte est aéré dans "page" pour ne pas affecter la barre de menu en haut.
+Text is set in "page" in order not to mess with the top menu bar. */
+
+#page {
+    line-height: 1.7em;
+}
+
+/* Couleur et style des liens
+Links colours and style. */
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+}
+
+a {
+    color: #AFA70E;
+}
+
+a:hover {
+	color: #C84B24;
+}
+
+/* Fixed header
+------------------------- */
+
+/* Page
+------------------------- */
+
+
+/* Page header
+------------------------- */
+
+
+a.logo {
+    margin-bottom:2em;
+}
+
+/* Menu Navigation
+-------------------------- */
+
+
+/* Dock
+---------------------------*/
+
+/* Le dock replié. / Side panel hidden. */
+
+#dock .dockedtitle {
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #E6E6E6, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    margin: 3px 3px 0;
+    padding: 0;
+}
+
+
+#dock .dockedtitle :hover {
+    background-color: #C84B24;
+/*	transition: background-position 0.3s linear 0s; */
+    color: #fff;
+	border-radius: 4px 4px 4px 4px;
+	overflow:hidden;
+}
+
+/* Dock déployé. / Side panel shown. */
+
+#dockeditempanel .dockeditempanel_content {
+    background-color: #F5F5F5; /* Détermine le fond de la couleur du dock déployé */
+    border: 1px solid #D5D5D5;
+}
+
+
+/* Breadcrumb / Navbar
+--------------------------- */
+
+
+/* Tabs
+--------------------------- */
+
+
+/* Content
+--------------------------- */
+
+
+
+/* Sections
+--------------------------- */
+
+.section li.activity {
+    padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+/* Boutons
+--------------------------- */
+
+
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FBF460, #FBF460);
+    background-repeat: repeat-x;
+	margin-bottom: 1em;
+    /*border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05); */ /* Retrait de la bordure pour le Flat Design. / Removing border for design purposes. */
+}
+
+/* Bouton "enregistrer" : couleur du fond en hover, transition et couleur du texte.
+"Save" button : background color while hovering, transition and text colour.*/
+
+input.form-submit:hover, input#id_submitbutton:hover, input#id_submitbutton2:hover, .path-admin .buttons input[type="submit"]:hover, td.submit input:hover, input.form-submit:focus, input#id_submitbutton:focus, input#id_submitbutton2:focus, .path-admin .buttons input[type="submit"]:focus, td.submit input:focus, input.form-submit:active, input#id_submitbutton:active, input#id_submitbutton2:active, .path-admin .buttons input[type="submit"]:active, td.submit input:active, input.form-submit.active, input#id_submitbutton.active, input#id_submitbutton2.active, .path-admin .buttons input.active[type="submit"], td.submit input.active, input.form-submit.disabled, input#id_submitbutton.disabled, input#id_submitbutton2.disabled, .path-admin .buttons input.disabled[type="submit"], td.submit input.disabled, input.form-submit[disabled], input#id_submitbutton[disabled], input#id_submitbutton2[disabled], .path-admin .buttons input[type="submit"][disabled], td.submit input[disabled] {
+    background-color: #C84B24;
+	transition: background-position 0.3s linear 0s;
+    color: #fff;
+}
+
+input.form-submit, input#id_submitbutton, input#id_submitbutton2, .path-admin .buttons input[type="submit"], td.submit input {
+        background-color: #F5F5F5;
+	background-image: linear-gradient(to bottom, #50ccff, #50ccff);
+	   /* border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3; /* Retrait de la bordure pour le Flat Design. / Removing border for design purposes. */
+    color: #333;*/
+}
+
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+    background-position: 0 -3em;
+}
+
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus, button:active, input.form-submit:active, input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active, button.active, input.form-submit.active, input.active[type="button"], input.active[type="submit"], input.active[type="reset"], button.disabled, input.form-submit.disabled, input.disabled[type="button"], input.disabled[type="submit"], input.disabled[type="reset"], button[disabled], input.form-submit[disabled], input[type="button"][disabled], input[type="submit"][disabled], input[type="reset"][disabled] {
+    background-color: #C84B24;
+	transition: background-position 0.3s linear 0s;
+    color: #fff;
+}
+
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #e5e5e5;
+
+}
+
+
+/* Blocks
+--------------------------- */
+
+.block {
+    background-color: #Fff;
+    border: none;
+   /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset; */
+   box-shadow: none;
+    min-height: 2em;
+    padding: 2em;
+}
+
+/* Question bank faux-block
+--------------------------- */
+
+#page-mod-quiz-edit .questionbankwindow.block div.header {
+    background-color: #C84B24;
+	border-radius: 4px 4px 4px 4px; /* Ajout de coins arrondis au bas de l'entête. / Added rounded corners at the bottom of the header. */
+}
+
+
+/* Hide button when Persistent Editing mode is on
+------------------------ */
+
+/* Forms
+------------------------ */
+
+/* Footer
+-------------------------- */
+
+/* Course list
+-------------------------- */
+
+
+/* Course
+-------------------------- */
+
+
+/* Forum
+---------------------------*/
+
+#page-mod-forum-discuss .discussioncontrol.movediscussion {
+    padding-right: 0px;
+}
+
+.forumpost {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    /*border-radius: 4px 4px 4px 4px; */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 2em;
+    min-height: 2em;
+    padding: 1em;
+}
+
+
+/* Test
+--------------------------*/
+
+.que .formulation {
+    background-color: #F5F5F5;
+    border-color: #DCDCDC;
+   /* color: #333333; */
+}
+
+.que .info {
+    width: 10.4em;
+}
+
+.que .content {
+    margin: 0 0 0 12em;
+}
+
+.que .info .editquestion img, .que .info .questionflag img, .que .info .questionflag input {
+    vertical-align: middle;
+}
+
+.qtext img {
+	padding:0.5em;
+}
+
+.path-mod-quiz .qnbutton {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+
+.formulation .correct {
+    background-color: #C2C876;
+}
+
+.que.multichoice .answer .specificfeedback {
+    background: transparent;
+}
+
+.formulation .incorrect {
+    background-color: #C89E88;
+}
+
+/*.que .formulation, .que .outcome, */.que .comment {
+    background-color: #C2C876;
+    border: 1px solid #848850;
+    color: #000;
+}
+
+/*.que .formulation,*/ .que .outcome {
+    background-color: #C2C876;
+    border: 1px solid #7C760A;
+	color: #000;
+}
+
+/* ADDED BY FDY */
+#page-header h1{
+	text-align: center;
+	margin-right: auto;
+	font-size: 150%;
+	background: transparent url("http://moodle.univ-lille3.fr/pluginfile.php/314448/mod_label/intro/logo_web-01.png") no-repeat scroll 48% 0%;
+	padding-top: 83px;
+}
+
+
+
+/* END OF ADDED BY FDY */
+
+
+/* Assignments
+--------------------------*/
+
+/* Folder
+--------------------------*/
+
+/* Event list
+--------------------------*/
+
+/* Glossaries
+--------------------------*/
+
+/* Reports
+--------------------------*/
+
+/* Grader report
+--------------------------*/
+
+
+/* Quiz ordering/paging tool
+--------------------------*/
+
+/* Question bank
+--------------------------*/
+
+/* Question bank faux-block
+---------------------------*/
+
+/* Mod chooser tiles
+--------------------------*/
+
+/* Responsiveness
+--------------------------*/
