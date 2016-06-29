@@ -7,144 +7,88 @@ border : 3px solid #ddd;
 /* Custom banners
 ------------------------- */
 
-.ban-howto {
+.instancename .ban {
 	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-howto.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ 	height: 4em; /* Height of new image */
+	background-repeat: no-repeat;
+}
+
+.instancename .ban-sub{
+	background-repeat: no-repeat;
+	display: inline-block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-position: -7em -3.5em;
+	background-origin: content-box;
+	background-size: 27em;
+	width: 34em;
+	height: 4em;
+	padding-left: 8em;
+	margin-left: -8em;
+	padding-top: 8em;
+	margin-top: -6em;
+}
+
+
+.ban-howto {
+	background-image: url("sharky/svg/ban-howto.svg") ;
 }
 
 .ban-forum {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-forum.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-forum.svg") ;
 }
 
 .ban-linetop {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-linetop.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-linetop.svg") ;
 }
 
 .ban-linecenter {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-linecenter.svg") no-repeat center;
- /*width: 25em;*/ /* Width of new image */
- height: 2em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-linecenter.svg");
+	background-position: center;
 }
 
 .ban-linebottom {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-linebottom.svg") no-repeat right;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-linebottom.svg");
+	background-position: right;
 }
 
 .ban-coffee {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-coffee.svg") no-repeat center;
- /*width: 25em;*/ /* Width of new image */
- height: 10em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-coffee.svg");
+	background-position: center;
 }
 
-.ban-test {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-test.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+.instancename .ban-test {
+	background-image: url("sharky/svg/ban-test.svg") ;
 }
 
 .ban-tests {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-tests.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-tests.svg") ;
 }
 
 .ban-exo {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-exo.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-exo.svg") ;
 }
 
 .ban-exos {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-exos.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-exos.svg") ;
 }
 
 .ban-act {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-act.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-act.svg") ;
 }
 
 .ban-acts {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-acts.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-acts.svg") ;
 }
 
 .ban-actav {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-actav.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-actav.svg") ;
 }
 
 .ban-actavs {
-	display: block;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
- background: url("sharky/svg/ban-actavs.svg") no-repeat;
- /*width: 25em;*/ /* Width of new image */
- height: 4em; /* Height of new image */
- /*padding-left: 25em;*/ /* Equal to width of new image */
+	background-image: url("sharky/svg/ban-actavs.svg") ;
 }
 
 /* Fonts, style and colours
@@ -226,7 +170,7 @@ a.logo {
 
 #dock .dockedtitle {
     background-color: #F5F5F5;
-    background-image: linear-gradient(to bottom, #E6E6E6, #E6E6E6);
+    : linear-gradient(to bottom, #E6E6E6, #E6E6E6);
     background-repeat: repeat-x;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -280,7 +224,7 @@ a.logo {
 
 button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
     background-color: #F5F5F5;
-    background-image: linear-gradient(to bottom, #FBF460, #FBF460);
+    : linear-gradient(to bottom, #FBF460, #FBF460);
     background-repeat: repeat-x;
 	margin-bottom: 1em;
     /*border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
@@ -298,7 +242,7 @@ input.form-submit:hover, input#id_submitbutton:hover, input#id_submitbutton2:hov
 
 input.form-submit, input#id_submitbutton, input#id_submitbutton2, .path-admin .buttons input[type="submit"], td.submit input {
         background-color: #F5F5F5;
-	background-image: linear-gradient(to bottom, #50ccff, #50ccff);
+	: linear-gradient(to bottom, #50ccff, #50ccff);
 	   /* border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3; /* Retrait de la bordure pour le Flat Design. / Removing border for design purposes. */
     color: #333;*/
 }
