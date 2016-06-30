@@ -7,6 +7,9 @@ border : 3px solid #ddd;
 /* Custom banners
 ------------------------- */
 
+/*
+Stylage des éléments directement sans <span>
+=> trop foireux pour l'instant
 li.activity.forum.modtype_forum {
 	background-image: url("sharky/svg/ban-forum.svg") ;
 	background-repeat: no-repeat;
@@ -25,7 +28,7 @@ li#section-0 {
 	margin-left: -3em;
 	background-position: 3.2em 0em;
 	background-size: 28em;
-}
+}*/
 
 .ban-sec{
 	background-repeat: no-repeat;
@@ -135,6 +138,16 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
 	font-size: 100%;
 	/*text-rendering: optimizelegibility; */
 }
+
+
+#page-header h1{
+	text-align: center;
+	margin-right: auto;
+	font-size: 150%;
+	background: transparent url("sharky/pix/logo_web-01.png") no-repeat scroll 48% 0%;
+	padding-top: 83px;
+}
+
 
 h2 {
     font-size: 160%;
@@ -407,19 +420,6 @@ button, input.form-submit, input[type="button"], input[type="submit"], input[typ
     border: 1px solid #7C760A;
 	color: #000;
 }
-
-/* ADDED BY FDY */
-#page-header h1{
-	text-align: center;
-	margin-right: auto;
-	font-size: 150%;
-	background: transparent url("http://moodle.univ-lille3.fr/pluginfile.php/314448/mod_label/intro/logo_web-01.png") no-repeat scroll 48% 0%;
-	padding-top: 83px;
-}
-
-
-
-/* END OF ADDED BY FDY */
 
 
 /* Assignments
