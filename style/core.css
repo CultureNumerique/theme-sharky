@@ -4,31 +4,11 @@ iframe {
 border : 3px solid #ddd;
 }
 
-/* Custom banners
-------------------------- */
-
-/*
-Stylage des éléments directement sans <span>
-=> trop foireux pour l'instant
-li.activity.forum.modtype_forum {
-	background-image: url("sharky/svg/ban-forum.svg") ;
-	background-repeat: no-repeat;
-	padding-top: 4em;
-	padding-left: 4em;
-	margin-left: -4em;
-	background-position: 2em 0em;
-	background-size: 28em;
+/* flèche utilisée pour déplacement perturbée par les banières; repositionnée (elles sont en absolute/top0/left0)*/
+.quiz .editing_move{
+	bottom: 3px;
+	top: initial !important;
 }
-
-li#section-0 {
-	background-image: url("sharky/svg/ban-howto.svg");
-	background-repeat: no-repeat;
-	padding-top: 4em;
-	padding-left: 3em;
-	margin-left: -3em;
-	background-position: 3.2em 0em;
-	background-size: 28em;
-}*/
 
 .ban-sec{
 	background-repeat: no-repeat;
@@ -44,6 +24,7 @@ li#section-0 {
 	margin-left: -7em;
 	padding-top: 8em;
 	margin-top: -6em;
+	
 }
 
 .instancename .ban {
@@ -62,12 +43,13 @@ li#section-0 {
 	background-position: -6em -3.5em;
 	background-origin: content-box;
 	background-size: 27em;
-	width: 34em;
+	width: 30em;
 	height: 4em;
 	padding-left: 7em;
 	margin-left: -7em;
 	padding-top: 8em;
 	margin-top: -6em;
+	pointer-events: none;
 }
 
 
