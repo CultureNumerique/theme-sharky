@@ -27,7 +27,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2013110500;
+$plugin->version   = 20160905_1;
 $plugin->requires  = 2013110500;
 $plugin->component = 'theme_sharky';
 $plugin->dependencies = array(
