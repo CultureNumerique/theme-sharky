@@ -47,7 +47,7 @@ border : 3px solid #ddd;
 	height: 4em;
 	padding-left: 7em;
 	margin-left: -7em;
-	padding-top: 8em;
+	padding-top: 9em;
 	margin-top: -6em;
 	pointer-events: none;
 }
@@ -112,6 +112,12 @@ border : 3px solid #ddd;
 	background-image: url("sharky/svg/ban-actavs.svg") ;
 }
 
+
+/* Déplacement des items listés de type cours 'page' vers la gauche*/
+li.activity.quiz{
+	margin-left: 3.2em
+}
+
 /* Fonts, style and colours
 ------------------------- */
 
@@ -121,6 +127,12 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
 	/*text-rendering: optimizelegibility; */
 }
 
+/* make title in summary bigger*/
+.summary .sumtitle{
+	font-size:110%;
+	font-weight: bold;
+	
+}
 
 #page-header h1{
 	text-align: center;
