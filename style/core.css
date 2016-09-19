@@ -54,62 +54,62 @@ border : 3px solid #ddd;
 
 
 .ban-howto {
-	background-image: url("sharky/svg/ban-howto.svg") ;
+	background-image: url([[pix:theme|svg/ban-howto.svg]]) ;
 }
 
 .instancename .ban-forum {
-	background-image: url("sharky/svg/ban-forum.svg") ;
+	background-image: url([[pix:theme|svg/ban-forum.svg]]) ;
 }
 
 .instancename .ban-linetop {
-	background-image: url("sharky/svg/ban-linetop.svg") ;
+	background-image: url([[pix:theme|svg/ban-linetop.svg]]) ;
 }
 
 .instancename .ban-linecenter {
-	background-image: url("sharky/svg/ban-linecenter.svg");
+	background-image: url([[pix:theme|svg/ban-linecenter.svg]]);
 	background-position: center;
 }
 
 .instancename .ban-linebottom {
-	background-image: url("sharky/svg/ban-linebottom.svg");
+	background-image: url([[pix:theme|svg/ban-linebottom.svg]]);
 	background-position: right;
 }
 
 .instancename .ban-coffee {
-	background-image: url("sharky/svg/ban-coffee.svg");
+	background-image: url([[pix:theme|svg/ban-coffee]]);
 	background-position: center;
 }
 
 .instancename .ban-test {
-	background-image: url("sharky/svg/ban-test.svg") ;
+	background-image: url([[pix:theme|svg/ban-test]]) ;
 }
 
 .instancename .ban-tests {
-	background-image: url("sharky/svg/ban-tests.svg") ;
+	background-image: url([[pix:theme|svg/ban-tests]]) ;
 }
 
 .instancename .ban-exo {
-	background-image: url("sharky/svg/ban-exo.svg") ;
+	background-image: url([[pix:theme|svg/ban-exo]]) ;
 }
 
 .instancename .ban-exos {
-	background-image: url("sharky/svg/ban-exos.svg") ;
+	background-image: url([[pix:theme|svg/ban-exos]]) ;
 }
 
 .instancename .ban-act {
-	background-image: url("sharky/svg/ban-act.svg") ;
+	background-image: url([[pix:theme|svg/ban-act]]) ;
 }
 
 .instancename .ban-acts {
-	background-image: url("sharky/svg/ban-acts.svg") ;
+	background-image: url([[pix:theme|svg/ban-acts]]) ;
 }
 
 .instancename .ban-actav {
-	background-image: url("sharky/svg/ban-actav.svg") ;
+	background-image: url([[pix:theme|svg/ban-actav]]) ;
 }
 
 .instancename .ban-actavs {
-	background-image: url("sharky/svg/ban-actavs.svg") ;
+	background-image: url([[pix:theme|svg/ban-actavs]]) ;
 }
 
 
@@ -131,14 +131,14 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
 .summary .sumtitle{
 	font-size:110%;
 	font-weight: bold;
-	
+
 }
 
 #page-header h1{
 	text-align: center;
 	margin-right: auto;
 	font-size: 150%;
-	background: transparent url("sharky/pix/logo_web-01.png") no-repeat scroll 48% 0%;
+	background: transparent url([[pix:theme|logo_web-01]]) no-repeat scroll 48% 0%;
 	padding-top: 83px;
 }
 
