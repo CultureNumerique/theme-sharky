@@ -2,6 +2,8 @@
 
 iframe {
 border : 3px solid #ddd;
+height: 360px;
+width:640px;
 }
 
 /* flèche utilisée pour déplacement perturbée par les banières; repositionnée (elles sont en absolute/top0/left0)*/
