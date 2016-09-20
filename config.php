@@ -42,7 +42,9 @@ $THEME->editor_sheets = array();
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->csspostprocess = 'theme_sharky_process_css';
-
+$THEME->javascripts_footer = array(
+    'sharky'
+);
 $THEME->blockrtlmanipulations = array(
     'side-pre' => 'side-post',
     'side-post' => 'side-pre'
