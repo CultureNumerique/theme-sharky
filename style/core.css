@@ -41,12 +41,12 @@ width:640px;
 	background-repeat: no-repeat;
 	display: inline-block;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	/*box-sizing: border-box; FIX: prevent bkground image from being visible (though placed in the layout)*/
 	background-position: -6em -3.5em;
 	background-origin: content-box;
-	background-size: 27em;
-	width: 30em;
-	height: 4em;
+	background-size: 25em;
+	/*width: 30em;*/
+	height: 1em;
 	padding-left: 7em;
 	margin-left: -7em;
 	padding-top: 9em;
